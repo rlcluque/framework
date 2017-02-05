@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE routes SYSTEM "../dtd/routes.dtd">
+
+<routes>
+    <index module="hoteles" authentication="none" />
+    
+    <!-- An example of how to refer an url to a module 
+    <route module="gestionDeUsuarios" authentication="yes">
+        <pattern lan="es" value="usuarios-del-sistema" />
+        <pattern lan="ca" value="usuaris-del-sistema" />
+        <pattern lan="en" value="system-users" />
+    </route>
+    -->
+    
+</routes>

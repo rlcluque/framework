@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE source SYSTEM "../dtd/source.dtd">
+<source>
+    <driver value="mysql" />
+    <host value="localhost" />
+    <port value="3306" />
+    <schema value="demo1" />
+    <user value="demo1" />
+    <password value="demo1" />
+</source>

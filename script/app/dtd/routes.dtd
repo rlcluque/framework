@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT routes (index,route*)>
+<!ELEMENT index EMPTY>
+<!ATTLIST index authentication (none|back|front) #REQUIRED>
+<!ATTLIST index module NMTOKEN #REQUIRED>
+<!ELEMENT route (pattern*)>
+<!ATTLIST route module NMTOKEN #REQUIRED>
+<!ATTLIST route authentication (none|back|front) #REQUIRED>
+<!ELEMENT pattern EMPTY>
+<!ATTLIST pattern lan NMTOKEN #REQUIRED>
+<!ATTLIST pattern value CDATA #REQUIRED>

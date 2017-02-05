@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE modules SYSTEM "../dtd/modules.dtd">
+<modules>
+    <module name="hoteles">
+        <procedures>
+            <procedure name="index">
+                <patterns>
+                    <pattern lan="all"></pattern>
+                </patterns>
+            </procedure>
+        </procedures>
+    </module>
+</modules>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT source (driver,host,port,schema,user,password)>
+<!ELEMENT driver EMPTY>
+<!ATTLIST driver value NMTOKEN #REQUIRED>
+<!ELEMENT host EMPTY>
+<!ATTLIST host value NMTOKEN #REQUIRED>
+<!ELEMENT port EMPTY>
+<!ATTLIST port value NMTOKEN #REQUIRED>
+<!ELEMENT schema EMPTY>
+<!ATTLIST schema value NMTOKEN #REQUIRED>
+<!ELEMENT user EMPTY>
+<!ATTLIST user value NMTOKEN #REQUIRED>
+<!ELEMENT password EMPTY>
+<!ATTLIST password value NMTOKEN #REQUIRED>

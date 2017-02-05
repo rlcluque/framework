@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE local SYSTEM "../dtd/local.dtd">
+<local>
+    <base_url value="http://localhost/" />
+    <base_dir value="demo/" />
+    <site_name value="Rafa Luque Demo" />
+    <site_name_suffix value="" />
+    <copyright value="Rafa Luque" />
+    <masterkey value="__some_difficult_password__" />
+    <debugMode value="1" />
+    <back_login_pattern value="admin/login" />
+    <administrator_mail value="__yourmail@yourdomain.com__" />
+</local>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT local (base_url,base_dir,site_name,site_name_suffix,copyright,masterkey,debugMode,back_login_pattern,administrator_mail)>
+<!ELEMENT base_url EMPTY>
+<!ATTLIST base_url value CDATA #REQUIRED>
+<!ELEMENT base_dir EMPTY>
+<!ATTLIST base_dir value CDATA #REQUIRED>
+<!ELEMENT site_name EMPTY>
+<!ATTLIST site_name value CDATA #REQUIRED>
+<!ELEMENT site_name_suffix EMPTY>
+<!ATTLIST site_name_suffix value CDATA #REQUIRED>
+<!ELEMENT copyright EMPTY>
+<!ATTLIST copyright value CDATA #REQUIRED>
+<!ELEMENT masterkey EMPTY>
+<!ATTLIST masterkey value NMTOKEN #REQUIRED>
+<!ELEMENT debugMode EMPTY>
+<!ATTLIST debugMode value (1|0) #REQUIRED>
+<!ELEMENT back_login_pattern EMPTY>
+<!ATTLIST back_login_pattern value CDATA #REQUIRED>
+<!ELEMENT administrator_mail EMPTY>
+<!ATTLIST administrator_mail value CDATA #REQUIRED>
+    

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT modules (module+)>
+<!ELEMENT module (procedures)>
+<!ATTLIST module name ID #REQUIRED>
+<!ELEMENT procedures (procedure+)>
+<!ELEMENT procedure (patterns,params*)>
+<!ATTLIST procedure name NMTOKEN #REQUIRED>
+<!ELEMENT patterns (pattern+)>
+<!ELEMENT pattern (#PCDATA)>
+<!ATTLIST pattern lan NMTOKEN #REQUIRED>
+<!ELEMENT params (param+)>
+<!ATTLIST params strict (yes|no) #REQUIRED>
+<!ELEMENT param EMPTY>
+<!ATTLIST param name NMTOKEN #REQUIRED>
